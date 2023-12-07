@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>room4_h1page</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="./css/9999.예이원_포폴.css">
+    <style>
+        .page5_banner{
+            width: 100%;
+            height: 800px;
+            background: url(./p_img/dining/dining_main.1920.jpg)no-repeat center / cover;
+        } 
+        .banner_txt_box{
+            /* width: 100%; */
+            height: 100%;
+            background-color: rgba(50, 50, 50, 0.5);
+            color: #fff;
+        }
+        .banner_txt_box_position{
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .banner_h1{
+            margin: 0 auto;
+            /* border-bottom: 1px solid #fff; */
+            letter-spacing: -3px;
+            font-weight: 100;
+            font-size: 60px;
+        }
+        .banner_line{
+            margin: 20px auto;
+            display: block;
+            width: 250px;
+            height: 1px;
+            background-color: #fff;
+            animation: b_line 1s forwards;
+        }
+        @keyframes b_line {
+            0% {width: 0;} 
+            100% {width: 250px;}}
+
+        .banner_p{
+            width: 900px;
+            height: 100px;
+            margin-top: 25px;
+            font-size: 15px;
+            line-height: 30px;
+        }
+/* 메인컨테이너 ---------------- */
+        .main_container{
+            width: 100%;
+        }
+/* section */
+        .dining_section{
+            margin-top: 100px;
+            margin-bottom: 100px;
+            width: 100%;
+            height: 1000px;
+            display: flex;
+            position: relative;
+        }
+        .dining_txt{
+            width: 35%;
+        }
+        .d_txt_box{
+            padding-left: 30px;
+            text-align: left;
+            width: 350px;
+            height: 500px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .d_h1{
+            font-weight: bold;
+            letter-spacing: -2px;
+            color: #333;
+            font-size: 55px;
+        }
+        .d_h3{
+            font-size: 25px;
+            font-weight: 500;
+            color: #808080;
+            letter-spacing: -2px;
+        }
+        .d_p{
+            font-size: 23x;
+            letter-spacing: -1px;
+        }
+        .dining_img{
+            width: 65%;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .d_item1{
+            width: 100%;
+            height: calc(100% / 3);
+        }
+        .d_i_1{
+            width: 50%;
+            height: 100%;
+            float: left;
+            position: relative;
+            background: url(./p_img/dining/다이닝5.jpg)no-repeat center / cover;
+        }
+        .d_i_2{
+            width: 50%;
+            height: 100%;
+            float: right;
+            position: relative;
+            background: url(./p_img/dining/다이닝3.jpg)no-repeat center / cover ;
+        }
+
+        .d_i_3{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            /* float: left; */
+            background: url(./p_img/dining/다이닝4.jpg)no-repeat center / cover;
+        }
+
+        .d_i_4{
+            width: 50%;
+            height: 100%;
+            float: left;
+            position: relative;
+            background: url(./p_img/dining/다이닝2.jpg)no-repeat center / cover;
+        }
+        .d_i_5{
+            width: 50%;
+            height: 100%;
+            float: right;
+            position: relative;
+            background: url(./p_img/dining/다이닝1.jpg)no-repeat center / cover ;
+        }
+
+        .d_txt_box1{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(62, 61, 61, 0.5);
+
+        }
+
+        .d_txt_box_h1{
+            margin: 0;
+            font-size: 25px;
+            letter-spacing: -1px;
+            color: #fff;
+            position: absolute;
+            display: block;
+
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .white_line {
+            display: none;
+            width: 90%;
+            height: 90%;
+            border: 1px solid #fff;
+            position: absolute;
+            /* text-align: center; */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* animation: oppp ; */
+            /* opacity: 0; */
+        }
+
+        /* @keyframes oppp {
+            0%{transform: translate(-150%, -150%); opacity: 0;}
+            100%{transform: translate(-50%, -50%); opacity: 1;}
+
+        } */
+        .d_i_1:hover .white_line{
+            display: block;
+        }
+        .d_i_2:hover .white_line{
+            display: block;
+        }
+        .d_i_3:hover .white_line{
+            display: block;
+        }
+        .d_i_4:hover .white_line{
+            display: block;
+        }
+        .d_i_5:hover .white_line{
+            display: block;
+        }
+
+        .gogobtn3_R{
+            border: 1px solid #fff;
+            background: #333;
+            color: #fff;
+            width: 200px;
+            height: 60px;
+            float: right;
+            margin-left: 20px;
+            /* border-radius: 20px; */
+            text-align: center;
+            line-height: 60px;
+            /* font-weight: 900; */
+            /* transition: all 1s; */
+            /* animation: opacc 2s ease forwards; */
+        }
+        .gogobtn3_R:hover{
+            background: #fff;
+            color: #333;
+            border: 1px solid #333;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="p_3header">
+    <div class="w_1350">
+        <div class="logo"><a href="./3.page_main.html"></a></div>
+            <div class="menu_list_bar">
+                <ul class="menu_list_bar_ul">
+                    <li><a href="./4_1.page_room1.html">Room & Suite</a>
+                        <div class="sub_menu">
+                            <ul class="sub_menu_ul">
+                                <li><a href=""></a>그랜드 룸</li>
+                                <li><a href=""></a>프리미어 룸</li>
+                                <li><a href=""></a>로얄 스위트 룸</li>
+                                <li><a href=""></a>코리안 프리미어 룸</li>
+                            </ul>
+                        </div>  
+                    </li>
+
+                    <li><a href="./5_1.page_dining1.html">Dining</a>
+                        <div class="sub_menu">
+                            <ul class="sub_menu_ul">
+                                <li><a href=""></a>한식</li>
+                                <li><a href=""></a>양식</li>
+                                <li><a href=""></a>뷔페</li>
+                            </ul>
+                        </div> 
+                    </li>
+                    <li><a href="./6_1.page_wedding1.html">Wedding & Conference</a>
+                        <div class="sub_menu">
+                            <ul class="sub_menu_ul">
+                                <li><a href=""></a>시그니엘 웨딩</li>
+                                <li><a href=""></a>프라이빗 파티</li>
+                                <li><a href=""></a>그랜드 볼룸</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="./7_1.page_facilites1.html">Facilities</a>
+                        <div class="sub_menu">
+                            <ul class="sub_menu_ul">
+                                <li><a href=""></a>호텔 수영장</li>
+                                <li><a href=""></a>피트니스 센터</li>
+                                <li><a href=""></a>살롱 드 시그니엘</li>
+                                <li><a href=""></a>호텔 사우나</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">Reservation</a></li>
+        </div>
+
+        <input type="checkbox" id="btn_ham">
+        <label for="btn_ham" class="hamberg">
+            <div class="p2_line top"></div>
+            <div class="p2_line mid"></div>
+            <div class="p2_line bot"></div>
+        </label>
+    </div>
+    
+
+    <div class="menu_pan" id="menu_pan">
+        <div class="menu_list">
+            <ul class="menu_list_ul">
+                <li><a href="./4_1.page_room1.html">Room & Suite</a></li>
+                <li><a href="./5_1.page_dining1.html">Dining</a></li>
+                <li><a href="./6_1.page_wedding1.html">Wedding & Conference</a></li>
+                <li><a href="./7_1.page_facilites1.html">Facilities</a></li>
+                <li><a href="">Reservation</a></li>
+            </ul>
+        </div>
+        </div> 
+
+
+    </div>
+    <div class="page5_banner">
+        <div class="banner_txt_box">
+            <div class="banner_txt_box_position">
+            <h1 class="banner_h1">#DINING</h1>
+            <span class="banner_line"></span>
+            <div class="banner_p">탁트인 도심의 전경을 바라보며 세계 최고 수준의 셰프들이 직접 선보이는 다양한 요리를 즐기실 수 있습니다.</div>
+            </div>
+        </div>
+        <div class="scroll_icon2"></div>
+    </div>
+    <div class="main_container">
+        <div class="w_1400">
+            <div class="dining_section">
+                <div class="dining_txt">
+                    <div class="d_txt_box">
+                        <h1 class="d_h1">#DINING OVERVIEWS</h1>
+                        <h3 class="d_h3">SAVOR THE FLAVOR AND
+                            INDULGE YOURSELF</h3>
+                            <p class="d_p">시그니엘 서울의 초고층 업스케일 샴페인바, 바 81에서 서울 시내의 파노라믹 스카이뷰와 함께 술과 음악을 즐겨보시기 바랍니다.<br>
+                                시그니엘 서울 STAY에서 미쉐린 3스타 셰프 야닉 알레노의 특별한 프랑스 요리를 경험해 보시기 바랍니다.</p>
+                            <div class="gogobtn3_R">BOOK NOW</div>
+                    </div>
+                </div>
+                <div class="dining_img">
+                    <div class="d_item1">
+                        <div class="d_i_1"><a href="">
+                            <div class="d_txt_box1">
+                                <div class="white_line">
+                                <h3 class="d_txt_box_h1">Bar & Lounge</h3>
+                                </div>
+                            </div>
+                            </a>    
+                        </div>
+                        <div class="d_i_2"><a href="">
+                            <div class="d_txt_box1">
+                                
+                                <div class="white_line">
+                                <h3 class="d_txt_box_h1">Restaurant</h3>
+                                </div>
+                            </div>
+
+                        </a>
+                            </div>
+                        </div>   
+                    
+                    <div class="d_item1">
+                        <div class="d_i_3"><a href="">
+                            <div class="d_txt_box1">
+                                <div class="white_line">
+                                <h3 class="d_txt_box_h1">Bar & Lounge</h3>
+                                </div>
+                            </div>
+                        </a></div>
+                    </div>
+                    <div class="d_item1">
+                        <div class="d_i_4"><a href="">
+                            <div class="d_txt_box1">
+                                <div class="white_line">
+                                <h3 class="d_txt_box_h1">Restaurant</h3>
+                                </div>
+                            </div>
+                        </a></div>   
+                        <div class="d_i_5"><a href="">
+                            <div class="d_txt_box1">
+                                <div class="white_line">
+                                <h3 class="d_txt_box_h1">Restaurant</h3>
+                                </div>
+                            </div>
+                        </a></div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    <!-- w_1400닫히는 곳 -->
+    <div class="sec4_footer">
+        <div class="icon_link">
+            <div class="footer_signiel_logo"></div>
+            <ul class="icon_link_ul">   
+                <li><a href="./3.page_main.html" target="_blank">
+                    <img src="./p_img/icon/footer_logo_signiel.png" alt=""></a></li>
+
+                <li><a href="https://www.facebook.com/signielhotels/" target="_blank">
+                    <img src="./p_img/icon/footer-sns-facebook.png" alt="">
+                </a></li>
+                <li>
+                    <a href="https://www.instagram.com/signielhotels/" target="_blank">
+                        <img src="./p_img/icon/footer-sns-instagram.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/user/LotteHotels" target="_blank">
+                        <img src="./p_img/icon/footer-sns-youtube.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://blog.naver.com/lotte_hotels" target="_blank">
+                        <img src="./p_img/icon/footer-sns-blog.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.lottehotel.com/global/ko/about/lotte-hotel/brand/lotte-hotel.html" target="_blank">
+                        <img src="./p_img/icon/footer_logo_lottehotel.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://www.lotteresort.com/main/ko/index" target="_blank">
+                        <img src="./p_img/icon/footer_logo_resort.png" alt=""></a>
+                    </li>
+            </ul>
+    </div>
+
+    </div>
+        <!-- 메인컨테이너 -->
+    </div>
+<!-- wrap 닫히는 곳 -->
+</div>
+
+<script src="./js/menu_pan.js"></script>
+    <script></script>
+    
+</body>
+</html>
