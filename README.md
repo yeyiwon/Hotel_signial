@@ -68,7 +68,7 @@
 <br>
 
 - 2번째 페이지
- ![sg3.png](p_img%2Fsg3.png)
+![sg3.png](p_img%2Fsg3.png)
 
         # 기능 
         1. 스크롤링하면 가로로 풀페이지 이동
