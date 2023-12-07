@@ -87,20 +87,20 @@
           4. 상단메뉴 호버 시 메뉴바 내려옴 (이 기능에 대한 세심한 기능은 추가하지 못함)
           5. 푸터 = 1,2번쨰 페이지 제외 항상 있을 것 아이콘마다 링크태그 달았음
 
-![sg4.png](p_img%2Fsg4.png)
-![sg5.png](p_img%2Fsg5.png)
-![sg6.png](p_img%2Fsg6.png)
-![sg7.png](p_img%2Fsg7.png)
+    ![sg4.png](p_img%2Fsg4.png)
+    ![sg5.png](p_img%2Fsg5.png)
+    ![sg6.png](p_img%2Fsg6.png)
+    ![sg7.png](p_img%2Fsg7.png)
 
 - 각각 디테일 페이지
 
         호텔이면 기본적으로 있는 시설들인 룸, 다이닝, 웨딩, 기타 시설을 만들었습니다.
 
-![sg8.png](p_img%2Fsg8.png)
-![sg9.png](p_img%2Fsg9.png)
-![sg10.png](p_img%2Fsg10.png)
-![sg11.png](p_img%2Fsg11.png)
-![sg12.png](p_img%2Fsg12.png)
+    ![sg8.png](p_img%2Fsg8.png)
+    ![sg9.png](p_img%2Fsg9.png)
+    ![sg10.png](p_img%2Fsg10.png)
+    ![sg11.png](p_img%2Fsg11.png)
+    ![sg12.png](p_img%2Fsg12.png)
 <br>
 
 ## 🙌 시연 영상 
