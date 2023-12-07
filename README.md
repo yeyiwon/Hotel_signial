@@ -1,4 +1,4 @@
-<img src = "https://capsule-render.vercel.app/api?type=waving&color=0:ef6262,120:ffffff&height=180&section=header&text=YE%202_WON&fontSize=32&animation=fadeln&fontAlignY=36&fontColor=ffffff"/>
+![header](https://capsule-render.vercel.app/api?type=slice&color=gradient&height=200&section=header&text=HEALING%20CAMP&fontSize=90)
 # 🏨 MY FIRST PORTFOLIO SIGNIEL HOTEL 
 
 --- 
