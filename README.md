@@ -110,9 +110,7 @@
 ---
 
 ![signiel1.gif](p_img%2Fsigniel1.gif)
-
 ![signiel2.gif](p_img%2Fsigniel2.gif)
-
 ![signiel3.gif](p_img%2Fsigniel3.gif)
 
 ---
