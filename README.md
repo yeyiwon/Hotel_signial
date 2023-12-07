@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=slice&color=gradient&height=200&section=header&text=HEALING%20CAMP&fontSize=90)
+![header](https://capsule-render.vercel.app/api?type=slice&color=gradient&height=200&section=header&text=HOTEL%20SIGNIEL&fontSize=90)
 # 🏨 MY FIRST PORTFOLIO SIGNIEL HOTEL 
 
 --- 
