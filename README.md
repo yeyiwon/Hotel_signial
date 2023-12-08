@@ -76,8 +76,7 @@
 
 <br>
 
-시연영상
----
+   #### 시연영상
 ![signiel1.gif](p_img%2Fsigniel1.gif)
 
 
@@ -98,10 +97,9 @@
     ![sg6.png](p_img%2Fsg6.png)
     ![sg7.png](p_img%2Fsg7.png)
 
-  시연영상상
-
-----
-  ![signiel2.gif](p_img%2Fsigniel2.gif)
+  #### 시연영상
+      ----
+      ![signiel2.gif](p_img%2Fsigniel2.gif)
 
 - 각각 디테일 페이지
 
@@ -114,7 +112,7 @@
     ![sg12.png](p_img%2Fsg12.png)
 <br>
 
-시연 영상 
+#### 시연영상 
 
 ---
 
