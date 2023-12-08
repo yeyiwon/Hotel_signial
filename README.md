@@ -100,12 +100,13 @@
 ## 각각 디테일 페이지
 
         호텔이면 기본적으로 있는 시설들인 룸, 다이닝, 웨딩, 기타 시설을 만들었습니다.
-
-    ![sg8.png](p_img%2Fsg8.png)
-    ![sg9.png](p_img%2Fsg9.png)
-    ![sg10.png](p_img%2Fsg10.png)
-    ![sg11.png](p_img%2Fsg11.png)
-    ![sg12.png](p_img%2Fsg12.png)
+        
+    
+![sg8.png](p_img%2Fsg8.png)
+![sg9.png](p_img%2Fsg9.png)
+![sg10.png](p_img%2Fsg10.png)
+![sg11.png](p_img%2Fsg11.png)
+![sg12.png](p_img%2Fsg12.png)
 
   ### 시연영상
 
