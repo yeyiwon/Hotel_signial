@@ -5,7 +5,7 @@
 
 ![sgmain.png](p_img%2Fsgmain.png)
 
-### 🙌 목차
+## 🧷 목차
 
 ---
 
