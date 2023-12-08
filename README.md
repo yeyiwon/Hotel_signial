@@ -20,7 +20,6 @@
 
 ## 🏨 프로젝트 : 호텔 웹 사이트 제작 
 
----
 
     - 기획 및 제작: 예이원
 
@@ -67,21 +66,20 @@
 <br>
 
 - 2번째 페이지
-![sg3.png](p_img%2Fsg3.png)
+  ![sg3.png](p_img%2Fsg3.png)
 
         # 기능 
         1. 스크롤링하면 가로로 풀페이지 이동
         2. 헤더 햄버거 버튼(css로함) 
         3. 햄버거 버튼 클릭 시 전체화면으로 메뉴 내려옴 
 
-<br>
+    ### 시연영상
 
-   #### 시연영상
-![signiel1.gif](p_img%2Fsigniel1.gif)
+  ![signiel1.gif](p_img%2Fsigniel1.gif)
 
 
-- 3번째 페이지 
-![sgmain.png](p_img%2Fsgmain.png)
+- 3번째 페이지
+  ![sgmain.png](p_img%2Fsgmain.png)
 
         디자인 적으로 많이 신경 쓴 메인 한 눈에 들어오면서 깔끔함을 추구하고싶었음 
         어느 페이지에서도 로고를 누르면 넘어감 
@@ -92,14 +90,13 @@
           4. 상단메뉴 호버 시 메뉴바 내려옴 (이 기능에 대한 세심한 기능은 추가하지 못함)
           5. 푸터 = 1,2번쨰 페이지 제외 항상 있을 것 아이콘마다 링크태그 달았음
 
-    ![sg4.png](p_img%2Fsg4.png)
-    ![sg5.png](p_img%2Fsg5.png)
-    ![sg6.png](p_img%2Fsg6.png)
-    ![sg7.png](p_img%2Fsg7.png)
+  ![sg4.png](p_img%2Fsg4.png)
+  ![sg5.png](p_img%2Fsg5.png)
+  ![sg6.png](p_img%2Fsg6.png)
+  ![sg7.png](p_img%2Fsg7.png)
 
-  #### 시연영상
-      ----
-      ![signiel2.gif](p_img%2Fsigniel2.gif)
+  ### 시연영상
+  ![signiel2.gif](p_img%2Fsigniel2.gif)
 
 - 각각 디테일 페이지
 
