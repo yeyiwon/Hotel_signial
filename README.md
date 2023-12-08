@@ -73,7 +73,7 @@
         3. 햄버거 버튼 클릭 시 전체화면으로 메뉴 내려옴 
         
 
-  ### 시연영상
+  ### 🎬시연영상
   ![signiel1.gif](p_img%2Fsigniel1.gif)
 
 
@@ -94,7 +94,7 @@
   ![sg6.png](p_img%2Fsg6.png)
   ![sg7.png](p_img%2Fsg7.png)
 
-  ### 시연영상
+  ### 🎬시연영상
   ![signiel2.gif](p_img%2Fsigniel2.gif)
 
 ## 각각 디테일 페이지
@@ -108,7 +108,7 @@
 ![sg11.png](p_img%2Fsg11.png)
 ![sg12.png](p_img%2Fsg12.png)
 
-  ### 시연영상
+  ### 🎬시연영상
 
   ![signiel3.gif](p_img%2Fsigniel3.gif)
 
