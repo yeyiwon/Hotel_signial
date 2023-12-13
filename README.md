@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=slice&color=gradient&height=210&text=Welcome%20👋&fontAlign=70&rotate=13&fontAlignY=25&desc=Ye2w's%20GitHub&descAlign=100.&descAlignY=44)
+![header](https://capsule-render.vercel.app/api?type=slice&color=gradient&height=210&text=Welcome%20👋&fontAlign=70&rotate=13&fontAlignY=25&descAlignY=50)
 
 # 🏨 MY FIRST PORTFOLIO SIGNIEL HOTEL
 
@@ -10,7 +10,7 @@
 
 - [🏨개요](#-프로젝트--호텔-웹-사이트-제작)
 - [💡기획](#-기획)
-- [🗂️페이지 구성](#-페이지-구성)
+- [📋페이지 구성](#-페이지-구성)
 </b>
 
 # 🏨 프로젝트 : 호텔 웹 사이트 제작 
@@ -44,7 +44,7 @@
 
 
 
-## 🗂️ 페이지 구성 
+## 📋 페이지 구성 
 
 ---
 ## ✏️첫번째 페이지
