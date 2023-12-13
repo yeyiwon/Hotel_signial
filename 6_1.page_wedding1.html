@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>roompage</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="./css/9999.예이원_포폴.css">
+    <style>
+        .page6_banner{
+            width: 100%;
+            height: 800px;
+            background: url(./p_img/wedding/wedding_main.1920.jpg)no-repeat center / cover;
+        }
+
+/* 메인컨테이너 ---------------- */
+        .main_container{
+            width: 100%;
+        }
+        .p6_room{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            margin-top: 50px;
+            margin-bottom: 100px;
+        }
+        .p6_p{
+            text-align: center;
+            font-size: 18px;
+            letter-spacing: -1px;
+            color: #333;
+            margin-top: 50px;
+        }
+        .wedding_img{
+            width: 100%;
+            height: 100%;
+            background: url(./p_img/wedding/Wedding_cyt.1440.jpg)no-repeat center / cover;
+            opacity: 0.9;
+        }
+        .bg_boxp6{
+            width: 100%;
+            height: 700px;
+            position: absolute;
+            top: 1800px;
+            background-color: #dddddd;
+        }
+        .wedding_txtbox_h1{
+            width: 100%;
+            float: right;
+            margin: 0;
+            font-size: 50px;
+            font-weight: bold;
+            letter-spacing: -3px;
+        }
+        .wedding_txtbox_h1_2{
+            width: 100%;
+            /* float: left; */
+            text-align: right;
+            margin: 0;
+            font-size: 50px;
+            font-weight: bold;
+            letter-spacing: -3px;
+        }
+        .wedding_txt_box_p{
+            margin-top: 20px;
+            width: 100%;
+            font-size: 20px;
+            text-align: left;
+            letter-spacing: -2px;
+            line-height: 35px;
+        }
+        .wedding_txt_box_p_2{
+            width: 100%;
+            font-size: 20px;
+            text-align: left;
+            padding-right: 30px;
+            letter-spacing: -2px;
+            line-height: 35px;
+        }
+        .w_imgbox{
+            width: 65%;
+            height: 100%;
+            position: relative;
+        }
+        .img_txt_box{
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            background-color: rgba(255,255,255, 0.5);
+            position: absolute;
+            bottom:0;
+        }
+        .img_txt_box:hover{
+            background-color: rgba(187,187,187, 0.5);
+        }
+        .w_txt_1{
+            width: 100%;
+            padding-left: 30px;
+        }
+        .w_txt_2{
+            width: 100%;
+            padding-left: 30px;
+        }
+        .m_txt_1{
+            width: 100%;
+            padding-right: 30px;
+        }
+        .m_txt_2{
+            width: 100%;
+            padding-right: 30px;
+        }
+        .w_box1{background: url(./p_img/wedding/mittingimg.jpg)no-repeat center / cover;}
+        .w_box2{background: url(./p_img/wedding/sifnielwedding.1920.jpg)no-repeat center / cover;}
+
+        .w_txtbox{
+            width: 35%;
+            height: 100%;
+            display: flex;
+            font-size: 20px;
+            flex-direction: column;
+            justify-content: space-between;
+            /* gap: 20px; */
+        }
+        .w_txtbox_R{
+            width: 35%;
+            height: 100%;
+            display: flex;
+            padding-right: 30px;
+            font-size: 20px;
+            flex-direction: column;
+            justify-content: space-between;
+            /* gap: 20px; */
+        }
+        .img_txt_p{
+            color: #333;
+            /* letter-spacing: -2px; */
+            font-size: 18px;
+            padding-left: 10px;
+            padding-right: 10px;
+            line-height: 25px;
+        }
+        .W_gogobtn3_L{
+            border: 1px solid #fff;
+            background: #333;
+            color: #fff;
+            width: 200px;
+            height: 60px;
+            margin-left: 30px;
+            /* border-radius: 20px; */
+            text-align: center;
+            line-height: 60px;
+            /* font-weight: 900; */
+            /* transition: all 1s; */
+            /* animation: opacc 2s ease forwards; */
+        }
+        .W_gogobtn3_R:hover{
+            background: #fff;
+            color: #333;
+            border: 1px solid #333;
+        }
+        .W_gogobtn3_L:hover{
+            background: #fff;
+            color: #333;
+            border: 1px solid #333;
+        }
+        .W_gogobtn3_R{
+            border: 1px solid #fff;
+            background: #333;
+            color: #fff;
+            width: 200px;
+            height: 60px;
+            /* border-radius: 20px; */
+            float: right;
+            text-align: center;
+            line-height: 60px;
+            margin-right: 20px;
+            /* font-weight: 900; */
+            /* transition: all 1s; */
+            /* animation: opacc 2s ease forwards; */
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="p_3header">
+    <div class="w_1350">
+        <div class="logo"><a href="./index.html"></a></div>
+
+            <div class="menu_list_bar">
+                <ul class="menu_list_bar_ul">
+                    <li><a href="./4_1.page_room1.html">Room & Suite</a>
+                        <div class="sub_menu">
+                            <ul class="sub_menu_ul">
+                                <li><a href=""></a>그랜드 룸</li>
+                                <li><a href=""></a>프리미어 룸</li>
+                                <li><a href=""></a>로얄 스위트 룸</li>
+                                <li><a href=""></a>코리안 프리미어 룸</li>
+                            </ul>
+                        </div>  
+                    </li>
+
+                    <li><a href="./5_1.page_dining1.html">Dining</a>
+                        <div class="sub_menu">
+                            <ul class="sub_menu_ul">
+                                <li><a href=""></a>Bar & Rounge</li>
+                                <li><a href=""></a>Restaurant</li>
+                            </ul>
+                        </div> 
+                    </li>
+                    <li><a href="./6_1.page_wedding1.html">Wedding & Conference</a>
+                        <div class="sub_menu">
+                            <ul class="sub_menu_ul">
+                                <li><a href=""></a>시그니엘 웨딩</li>
+                                <li><a href=""></a>프라이빗 파티</li>
+                                <li><a href=""></a>그랜드 볼룸</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="./7_1.page_facilites1.html">Facilities</a>
+                        <div class="sub_menu">
+                            <ul class="sub_menu_ul">
+                                <li><a href=""></a>호텔 수영장</li>
+                                <li><a href=""></a>피트니스 센터</li>
+                                <li><a href=""></a>살롱 드 시그니엘</li>
+                                <li><a href=""></a>호텔 사우나</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">Reservation</a></li>
+                </div>
+                <input type="checkbox" id="btn_ham">
+                <label for="btn_ham" class="hamberg">
+                    <div class="p2_line top"></div>
+                    <div class="p2_line mid"></div>
+                    <div class="p2_line bot"></div>
+                </label>
+    </div>
+    <div class="menu_pan" id="menu_pan">
+        <div class="menu_list">
+            <ul class="menu_list_ul">
+                <li><a href="./4_1.page_room1.html">Room & Suite</a></li>
+                <li><a href="./5_1.page_dining1.html">Dining</a></li>
+                <li><a href="./6_1.page_wedding1.html">Wedding & Conference</a></li>
+                <li><a href="./7_1.page_facilites1.html">Facilities</a></li>
+                <li><a href="">Reservation</a></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <div class="page6_banner">
+        <div class="banner_txt_box">
+            <div class="banner_txt_box_position">
+            <h1 class="banner_h1">#WEDDING & CONFERANCE</h1>
+            <span class="banner_line"></span>
+            <div class="banner_p">가장 특별한 날을 위한 웨딩&파티를 위해 시그니엘 서울이 함께합니다.<br>
+                럭셔리 브랜드 이벤트, VIP초청 행사, 국제 회의 등 성공적인 행사를 위해 첨단 시설과 품격 높은 서비스를 제공합니다.</div>
+            </div>
+        </div>
+        <div class="scroll_icon2"></div>
+    </div>
+    <div class="main_container">
+        <div class="bg_boxp6"></div>
+        <div class="w_1400">
+            <p class="p6_p">비즈니스를 위한 대규모행사에서부터 VIP파티 연회, 그리고 인생의 가장 아름다운 순간인 웨딩까지,
+                        최고의 시간을 만들어보시기 바랍니다.</p>
+            <div class="p6_room">
+                <div class="wedding_img"></div>
+            </div>
+
+            <div class="p6_room">
+                <div class="w_imgbox w_box2">
+                    <div class="img_txt_box">
+                        <p class="img_txt_p">하늘 아래 가장 높은 시그니엘 서울의 웨딩홀에서 일생동안 잊지 못할 결혼식을 선사합니다.
+                            크리스틴 반타의 품격 높은 디자인 컨셉과 야닉 알레노의 파리지앵 메뉴는 생애 한 번 뿐인 웨딩의 완성도를 높여 드립니다.</p>
+                    </div>
+                </div>
+                <div class="w_txtbox">
+                    <div class="w_txt_1">
+                        <h1 class="wedding_txtbox_h1">#WEDDING</h1></div>
+                    <div class="w_txt_2">
+                        <p class="wedding_txt_box_p">
+                            - A Wedding in Heaven<br>
+                            ”가장 특별한 날, 당신이 가장 높게 빛날 수 있도록”<br>
+                            서울의 스카이라인이 한눈에 내려다보이는 파노라마뷰와 자연 채광이 어우러진 곳입니다.<br>
+                            
+                            SIGNIEL Wedding Menu by ”Yannick Alleno”<br>
+                            - 미쉐린 3스타셰프<br>
+                            - 프랑스의 3스타 레스토랑 '파비용 르드와앵'<br>
+                            - 모로코의 `로얄 만수르 마라케시`</p>
+                    </div>
+                    <div class="w_txt_3">
+                        <div class="W_gogobtn3_L">자세히보기</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p6_room">
+                <div class="w_txtbox_R">
+                <div class="m_txt_1">
+                    <h1 class="wedding_txtbox_h1_2">#MITTING</h1>
+                </div> 
+                <div class="m_txt_2">
+                    <p class="wedding_txt_box_p_2">당신의 비즈니스를 성공으로 이끌중요한 행사들을 기획해 보시기 바랍니다.<br>
+                
+                        최대 800명까지 수용 가능한 대규모 연회장<br>
+                        최고의 셰프들이 선사하는 요리와 품격 있는 서비스 그리고 전문 플래너들의
+                        세심함이 당신의 브랜드만을 위한 차별화된 행사를 만들어 드립니다.</p>
+                </div>    
+                  
+                <div class="m_txt_3">
+                    <div class="W_gogobtn3_R">자세히보기</div>
+                </div>
+                </div>
+                <div class="w_imgbox w_box1">
+                    <div class="img_txt_box">
+                        <p class="img_txt_p">시그니엘은 다양한 럭셔리 브랜드의 이벤트와 VIP초청 행사, 국제 회의 등 고객의 성공적인 행사를 위해 첨단 시설과 품격 높은 서비스를 제공합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+    </div>
+    <div class="sec4_footer">
+        <div class="icon_link">
+            <div class="footer_signiel_logo"></div>
+            <ul class="icon_link_ul">   
+                <li><a href="./index.html" target="_blank">
+                    <img src="./p_img/icon/footer_logo_signiel.png" alt=""></a></li>
+
+                <li><a href="https://www.facebook.com/signielhotels/" target="_blank">
+                    <img src="./p_img/icon/footer-sns-facebook.png" alt="">
+                </a></li>
+                <li>
+                    <a href="https://www.instagram.com/signielhotels/" target="_blank">
+                        <img src="./p_img/icon/footer-sns-instagram.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/user/LotteHotels" target="_blank">
+                        <img src="./p_img/icon/footer-sns-youtube.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://blog.naver.com/lotte_hotels" target="_blank">
+                        <img src="./p_img/icon/footer-sns-blog.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.lottehotel.com/global/ko/about/lotte-hotel/brand/lotte-hotel.html" target="_blank">
+                        <img src="./p_img/icon/footer_logo_lottehotel.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://www.lotteresort.com/main/ko/index" target="_blank">
+                        <img src="./p_img/icon/footer_logo_resort.png" alt=""></a>
+                    </li>
+            </ul>
+    </div>
+
+    </div>
+<!-- wrap 닫히는 곳 -->
+</div>
+<script src="./js/menu_pan.js"></script>
+
+    
+</body>
+</html>
