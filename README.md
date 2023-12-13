@@ -97,7 +97,7 @@
 ![sg7.png](p_img%2Fsg7.png)
 
 ### 🎬시연영상
-![3.gif](p_img%2F3.gif)
+![3.gif](p_img%2F3.gif){width: 300px; height:400px}
 
 🙏 읽어주셔서 감사합니당 🙏
 
