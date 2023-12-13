@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=slice&color=gradient&height=210&text=Welcome%20👋&fontAlign=70&rotate=13&fontAlignY=25&desc=Ye2w's%20GitHub&descAlign=70.&descAlignY=44)
+![header](https://capsule-render.vercel.app/api?type=slice&color=gradient&height=210&text=Welcome%20👋&fontAlign=70&rotate=13&fontAlignY=25&desc=Ye2w's%20GitHub&descAlign=100.&descAlignY=44)
 
 # 🏨 MY FIRST PORTFOLIO SIGNIEL HOTEL
 
