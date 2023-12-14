@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=slice&color=gradient&height=210&text=Signiel%20👋&fontAlign=70&descAlignY=50)
+![slice](https://capsule-render.vercel.app/api?type=slice&color=gradient&height=200&text=Hotel%20Signiel&fontAlign=70)
 
 # 🏨 MY FIRST PORTFOLIO SIGNIEL HOTEL
 
